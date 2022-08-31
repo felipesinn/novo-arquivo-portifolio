@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}body{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/t3.png);
+    background-size: cover;
+}
+/*cabeçalho*/
+header{
+    width: 100%;
+    height: 80px;
+    background: rgba(29, 3, 5, 0.726);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 99;
+}
+/*letras home-conhecimnento-sobre*/
+header.logo{
+    width: 5%;
+}header .logo img{
+    width: 85px;
+    border-radius: 50%;
+}
+header .menu ul{
+    display: flex;
+}
+header .menu ul li{
+    padding: 0 30px;
+    list-style: none;
+}
+header .menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s ease;
+}
+header .menu ul li a:hover{
+    color: #156fc3;
+}
+/*===== Main Home =====*/
+
+#home .container{
+    width: 100%;
+    height: 100vh;
+}
+#home .container .icons{
+    width: 10%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    position: fixed;
+    z-index: 999;
+}
+#home .container .icons ion-icon{
+    padding: 30px 0;
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.5s ease;
+}
+#home .container .icons ion-icon:hover{
+    color: #156fc3;
+}
+#home .container .title{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 60px;
+}
+#home .container .title h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 6rem;
+    letter-spacing: 2px;
+}
+#home .container .title h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1,5px;
+    font-size: 2rem;
+    margin-left: 25px;
+}
+#home .container .title h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+    /*===== about =====*/
+
+#about .container{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/t3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+#about .container .title{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 60px;
+}
+#about .container .title h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: left;
+}
+#about .container .title p{
+    color: #fff;
+    width: 500px;
+    margin-top: 30px;
+}
+#about .container .box-title{
+    width: 420px;
+    height: 37vh;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-shadow: 0 0 10px 0 rgba(21,111,195,0.5);
+    border-radius: 20px;
+}
+#about .container .box-title span{
+    color: #fff;
+}
+#about .container .box-title .b1{
+    width: 300px;
+    height: 5px;
+    background: #fff;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+#about .container .box-title .b2{
+    width: 350px;
+    height: 8px;
+    background: #156fc3;
+    border-radius: 5px;
+}
+#about .container .box-title .b3{
+    width: 300px;
+    height: 8px;
+    background: #156fc3;
+    border-radius: 5px;
+}
+#about .container .box-title .b4{
+    width: 325px;
+    height: 8px;
+    background: #156fc3;
+    border-radius: 5px;
+}
+/*===== portfolio =====*/
+#port .container{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/t3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#port .container li{
+    color: #fff;
+    width: 600px;
+    font-size: 1rem;
+    margin-top: 100px;
+}
+#port .container h4{
+    width: 80vw;
+    height: 10vh;
+    position: absolute;
+    z-index: 9;
+    color: rgb(218, 214, 214);
+    font-size: 2rem;
+    margin-top: 60px;
+} 
+#port .content-contact li{
+    color: #fff;
+    width: 600px;
+    margin-top: 50px;
+}
+
+/*===== Contact =====*/
+#contact .container{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/t3.png);
+    background-size: cover;
+    transition: background 0.4s ease-in;
+}
+#contact .container .content-contact{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 200px 0;
+    display: flex;
+    
+}
+#contact .container img{
+    width: 30%;
+    height: 65vh;
+    margin: 0 auto;
+    background: url(../img/t3.png);
+    border-radius: 20%;
+}
+#contact .contact-left li{
+    color: #fff;
+    width: 600px;
+    margin-top: 50px;
+}
